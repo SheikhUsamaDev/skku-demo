@@ -174,7 +174,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
 useEffect(() => {
   const interval = setInterval(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
-  }, 31000);
+  }, 3000);
 
   return () => clearInterval(interval);
 }, []);
