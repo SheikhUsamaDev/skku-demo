@@ -1,0 +1,9 @@
+//to install react cli globaly: (one time)
+npm install -g create-react-app
+
+// to create project
+npx create-react-app prectreactapp
+
+//install react bootstrap
+npm install react-bootstrap bootstrap
+
